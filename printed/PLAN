@@ -1,0 +1,12 @@
+Program flow - signature:
+1) Gather multiple versions of the same signatures, along with the full name of the person they belong to
+2) Just like with printed and handwritten, train a recognision system with multiple versions of these signatures, but this time making sure the output nodes correspond to the total number of people in the dataset
+3) Tweak the neural network as necessary
+
+Program flow - written notes:
+1) Gather some notes of a person along with their full name
+2) Use some kind of feature extraction to find similarities in the notes
+3) Train a recognision system on these notes, then test how the recognision system performs with new notes
+4) Report findings
+
+
